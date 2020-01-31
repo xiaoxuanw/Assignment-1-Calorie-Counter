@@ -74,7 +74,7 @@ class MainActivity : AppCompatActivity() {
     /**
      * Handler for adding a new item
      */
-    fun addFood(view: View?){
+    fun addItem(view: View?){
         val foodToAdd = newFood.text.toString()
         val calorieToAdd= newCalorie.text.toString()
         val exerciseToAdd = newExercise.text.toString()
